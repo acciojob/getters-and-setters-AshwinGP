@@ -24,12 +24,12 @@ class Teacher extends Person {
 // 		super(name)
 		console.log(`${this.name} is teaching`)
 	}}
-	const person=new Person("John",25);
-	console.log(person.getName);
-	const student = new Student("Alice", 22);
-	const tech=new Teacher("Bob",40);
-console.log(student.study());
-	console.log(tech.teach());
+// 	const person=new Person("John");
+// 	console.log(person.getName);
+// 	const student = new Student("Alice", 22);
+// 	const tech=new Teacher("Bob",40);
+// console.log(student.study());
+// 	console.log(tech.teach());
 
 // Do not change the code below this line
 window.Person = Person;
